@@ -1,0 +1,26 @@
+{
+  "name": "dom-events-and-react",
+  "version": "1.0.0",
+  "description": "samples for dom events intercating with react",
+  "main": "khadit ibourk",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel jsx/script.jsx -o js/script.js -w",
+    "buildManyjsx": "./node_modules/.bin/babel jsx -d js",
+    "buildManyjsxOnOnejs": "./node_modules/.bin/babel jsx -o js/script-compiled.js"
+  },
+  "keywords": [
+    "react.js"
+  ],
+  "babel": {
+    "presets": [
+      "react"
+    ]
+  },
+  "author": "khadir ibourk",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-preset-react": "^6.5.0"
+  }
+}
