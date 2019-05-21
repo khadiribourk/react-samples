@@ -1,0 +1,1 @@
+ReactDOM.render(React.createElement(OnClickButtonCounterProps, null), document.getElementById('content'));
