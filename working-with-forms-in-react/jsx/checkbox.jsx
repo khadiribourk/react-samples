@@ -12,7 +12,7 @@ class Checkbox extends React.Component{
 		this.handleCheckbox=this.handleCheckbox.bind(this)
 	}
 	handleCheckbox(event){
-		let ob=Object.assign(this.state.checkeboxGroup)
+		let obj=Object.assign(this.state.checkeboxGroup)
 		obj[event.target.value]=even.target.checked
 		this.setState({checkeboxGroup:obj})
 	}
