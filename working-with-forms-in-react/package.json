@@ -1,0 +1,26 @@
+{
+  "name": "working-with-forms-in-react",
+  "version": "1.0.0",
+  "description": "working with form elements /interactive properties",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",	
+    "build": "./node_modules/.bin/babel jsx/script.jsx -o js/script.js -w",
+    "buildManyjsx": "./node_modules/.bin/babel jsx -d js",
+    "buildManyjsxOnOnejs": "./node_modules/.bin/babel jsx -o js/script-compiled.js"
+  },
+  "keywords": [
+    "React.js"
+  ],
+  "babel": {
+    "presets": [
+      "react"
+    ]
+  },
+  "author": "khadir ibourk",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-preset-react": "^6.5.0"
+  }
+}
